@@ -7,4 +7,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SANA-SHOPPINGCART-BACK.Domain\SANA-SHOPPINGCART-BACK.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
